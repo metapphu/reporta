@@ -1,0 +1,35 @@
+{
+    "name": "metapphu/reporta",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "role": "Author",
+            "name": "Metapp",
+            "email": "info@metapp.hu"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/functions.php"
+        ],
+        "psr-4": {
+            "Metapp\\Reporta\\": "src/"
+        }
+    },
+    "require": {
+        "php": "7.2.5",
+        "ext-curl": "*",
+        "php-curl-class/php-curl-class": "^9.5"
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        },
+        "platform": {
+            "php": "7.2.5"
+        }
+    }
+}
